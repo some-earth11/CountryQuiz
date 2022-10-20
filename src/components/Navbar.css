@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+
+    background-color: aquamarine;
+}
+
+nav a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav img{
+    width: 40%;
+    height: 60%;
+}
