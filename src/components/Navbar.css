@@ -1,22 +1,38 @@
-nav{
+.nav{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+
+    background: rgba(255, 255, 255, 0.7);
+
     width: 100vw;
-    height: 10vh;
-
-    background-color: aquamarine;
+    height: 10%;
 }
 
-nav a{
+.leftnav{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    text-decoration: none;
+    width: 50%;
+    height: 100%;
 }
 
-nav img{
-    width: 40%;
-    height: 60%;
+.title{
+    margin-left: 2%;
+
+    color: #D2122E;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.rightnav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.rightnav button{
+    margin-inline: 2%;
 }
