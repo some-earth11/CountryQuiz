@@ -1,3 +1,4 @@
+import LandingForm from '../components/LandingForm';
 import Navbar from '../components/Navbar';
 import '../styles/Landing.css'
 
@@ -8,7 +9,7 @@ const Landing = () => {
                 <Navbar/>
                 <div className="content">
                     <div className="left">
-                        STUFF
+                        <LandingForm/>
                     </div>
                     <div className="right">
                         <img src="earthcartoonicon_1.png" alt="earth"/>

@@ -34,7 +34,7 @@
     align-items: center;
 
     width: 50%;
-    height: 90%;
+    height: 100%;
 }
 
 .right img{
@@ -46,7 +46,7 @@
 
 .left{
     width: 50%;
-    height: 90%;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
