@@ -1,7 +1,7 @@
 import './Navbar.css'
 
 const Navbar = () => {
-    return (  
+    return (
         <div className='nav'>
             <div className="leftnav">
                 <div className="title">
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <button type="button" class="btn btn-success">About</button>
                 <button type="button" class="btn btn-danger">Rules</button> 
             </div>         
-        </div>
+        </div> 
     );
 }
  
